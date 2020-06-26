@@ -10,7 +10,7 @@ public class Cancellation{
 	
 
 class Cancellation_Mapper extends Mapper<LongWritable, Text, Text, LongWritable>
-{a
+{
 	public void mapping(LongWritable k, Text val, Context context)
 	{
 		String split[]=val.toString().split(",");
