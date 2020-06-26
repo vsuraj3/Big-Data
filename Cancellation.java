@@ -9,7 +9,7 @@ import org.apache.hadoop.mapreduce.Reducer.Context;
 public class Cancellation{
 	
 
-class Cancellation_Mapper extends Mapper<aLongWritable, Text, Text, LongWritable>
+class Cancellation_Mapper extends Mapper<LongWritable, Text, Text, LongWritable>
 {
 	public void mapping(LongWritable k, Text val, Context context)
 	{
